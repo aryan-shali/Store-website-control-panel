@@ -1,0 +1,17 @@
+@font-face {
+    font-family: title;
+    src: url(W_hesam.TTF);
+}
+
+@font-face {
+    font-family: txt;
+    src: url(Vazir.ttf);
+}
+
+.txt {
+    font-family: txt;
+}
+
+.title {
+    font-family: title;
+}
