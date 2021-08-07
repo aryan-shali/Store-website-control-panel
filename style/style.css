@@ -1,3 +1,5 @@
+/*global style */
+
 * {
     padding: 0;
     margin: 0;
@@ -17,28 +19,34 @@ i {
     color: white;
 }
 
+
+/* style of menu part */
+
 .o {
     display: flex;
     color: white;
     text-decoration: none;
     align-items: center;
-    margin: 10px 0;
+    margin: 10px 0 10px 0;
+    transition: all .2s ease-in;
 }
 
 .option {
     margin: 30px 0 0 0;
 }
 
-#hy {
-    width: 150px;
-    height: 150px;
-    background: #FF5959;
-}
-
-#po {
+.o span {
     width: 3px;
     height: 17px;
     background: #FF5959;
+    opacity: 0;
+}
+
+.hide {
+    opacity: 100;
+}
+
+.show {
     opacity: 0;
 }
 
@@ -65,6 +73,11 @@ i {
     margin: 0 10px 0 0;
 }
 
+.o:hover {
+    margin: 10px 10px 0 0;
+    transition: all .2s ease-in;
+}
+
 .menu img {
     width: 140px;
     height: 140px;
@@ -85,3 +98,6 @@ i {
     color: white;
     font-size: 0.90em;
 }
+
+
+/* styel of container */
