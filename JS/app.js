@@ -57,3 +57,16 @@ function onover5() {
 }
 
 //contain part
+//part 1
+let ticon = document.getElementById("bi-chat-left-dots");
+let ttxt = document.getElementById("ttxt");
+
+function movr() {
+    ttxt.style.color = "#4A63E7";
+    ticon.style.color = "#4A63E7";
+}
+
+function nmovr() {
+    ttxt.style.color = "#F6F7FF";
+    ticon.style.color = "#F6F7FF";
+}

@@ -6,17 +6,18 @@
     box-sizing: border-box;
 }
 
-.page {
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     background: #F6F7FF;
+    flex-wrap: wrap;
     width: 100%;
     height: 100%;
 }
 
 i {
-    color: white;
+    color: #F6F7FF;
 }
 
 
@@ -24,7 +25,7 @@ i {
 
 .o {
     display: flex;
-    color: white;
+    color: #F6F7FF;
     text-decoration: none;
     align-items: center;
     margin: 10px 0 10px 0;
@@ -65,8 +66,8 @@ i {
     background: #4A63E7;
     display: flex;
     flex-direction: column;
-    padding: 29px;
-    border-radius: 45px;
+    padding: 35px 29px;
+    border-radius: 35px;
 }
 
 .opt {
@@ -85,7 +86,7 @@ i {
 }
 
 .webname {
-    color: white;
+    color: #F6F7FF;
     font-size: 1.75em;
     margin: 20px 0 0 0;
 }
@@ -95,9 +96,95 @@ i {
 }
 
 .autorname {
-    color: white;
+    color: #F6F7FF;
     font-size: 0.90em;
 }
 
 
 /* styel of container */
+
+.part1 {
+    width: 877px;
+    height: 588px;
+    border-radius: 35px;
+    margin: 0 40px 0 0;
+    background-color: #4A63E7;
+    padding: 70px 90px 0 0;
+    -webkit-box-shadow: 0px 0px 13px 0px #4A63E7;
+    box-shadow: 0px 0px 13px 0px #4A63E7;
+}
+
+.ptit {
+    font-size: 3.5em;
+    color: #F6F7FF;
+}
+
+.ptit span {
+    color: #FF5959;
+}
+
+.ptxt {
+    color: #F6F7FF;
+    font-size: 1.1em;
+}
+
+.btnp {
+    display: flex;
+    align-items: center;
+    margin: 30px 0 0 0;
+}
+
+.ticket {
+    display: flex;
+    align-items: center;
+    margin: 0 40px 0 0;
+    justify-content: center;
+    width: 140px;
+    height: 45px;
+    border: 1px solid #F6F7FF;
+    border-radius: 40px;
+    transition: all .3s ease-in;
+}
+
+.source {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    height: 45px;
+    background: #FF5959;
+    border-radius: 40px;
+    transition: all .3s ease-in;
+}
+
+.ticket a {
+    text-decoration: none;
+    color: #F6F7FF;
+    margin: 0 10px 0 0;
+}
+
+.ticket:hover {
+    color: #4A63E7;
+    background: #F6F7FF;
+    -webkit-box-shadow: 0px 12px 26px -5px rgba(48, 0, 138, 0.62);
+    box-shadow: 0px 12px 26px -5px rgba(48, 0, 138, 0.62);
+    transition: all .3s ease-in;
+}
+
+.source p {
+    color: #F6F7FF;
+    margin: 0 10px 0 0;
+}
+
+.source:hover {
+    background-color: #4A63E7;
+    -webkit-box-shadow: 0px 12px 26px -5px rgba(48, 0, 138, 0.62);
+    box-shadow: 0px 12px 26px -5px rgba(48, 0, 138, 0.62);
+    transition: all .3s ease-in;
+}
+
+.part1 img {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+}
