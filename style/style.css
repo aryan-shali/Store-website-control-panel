@@ -270,3 +270,175 @@ i {
     color: #F6F7FF;
     font-size: 1.1em;
 }
+
+
+/* part 3 */
+
+.part3 {
+    width: 1179px;
+    height: 424px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(249, 242, 253);
+    box-shadow: 0px 0px 10px 0px rgb(249, 242, 253);
+    border-radius: 23px;
+    margin: 30px 0 0 0;
+    padding: 0 50px;
+}
+
+.n-p3 h2 {
+    font-size: 2.1em;
+    height: 52px;
+}
+
+.redside {
+    width: 35px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #FF5959;
+}
+
+.n-p3 {
+    margin: 70px 0 40px 0;
+}
+
+.part3 div div i {
+    font-size: 2em;
+    color: #FF5959;
+    transition: all .3s ease-in;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service div {
+    border: 1px #ddd solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 195px;
+    width: 250px;
+}
+
+.t-serv {
+    font-size: 1.5em;
+    margin: 16px 0 10px 0;
+    transition: all .3s ease-in;
+}
+
+.p-serv {
+    color: rgb(128, 128, 128);
+    transition: all .3s ease-in;
+}
+
+.serv2:hover>.t-serv {
+    color: white;
+    transition: all .3s ease-in;
+}
+
+.serv2:hover>.p-serv {
+    color: white;
+    transition: all .3s ease-in;
+}
+
+.serv2:hover>i {
+    color: white;
+    transition: all .3s ease-in;
+}
+
+.SERV2 {
+    transition: all .3s ease-in;
+}
+
+.serv2:hover {
+    background-color: #FF5959;
+    -webkit-box-shadow: 0 0 20px 0 rgb(165, 165, 165);
+    box-shadow: 0 0 20px 0 rgb(165, 165, 165);
+    border: 1px transparent solid;
+    transition: all .3s ease-in;
+}
+
+.serv1:hover>.t-serv {
+    color: white;
+    transition: all .3s ease-in;
+}
+
+.serv1:hover>.p-serv {
+    color: white;
+    transition: all .3s ease-in;
+}
+
+.serv1:hover>i {
+    color: white;
+    transition: all .3s ease-in;
+}
+
+.SERV1 {
+    transition: all .3s ease-in;
+}
+
+.serv1:hover {
+    background-color: #FF5959;
+    -webkit-box-shadow: 0 0 20px 0 rgb(165, 165, 165);
+    box-shadow: 0 0 20px 0 rgb(165, 165, 165);
+    border: 1px transparent solid;
+    transition: all .3s ease-in;
+}
+
+.serv3:hover>.t-serv {
+    color: white;
+    transition: all .3s ease-in;
+}
+
+.serv3:hover>.p-serv {
+    color: white;
+    transition: all .3s ease-in;
+}
+
+.serv3:hover>i {
+    color: white;
+    transition: all .3s ease-in;
+}
+
+.SERV3 {
+    transition: all .3s ease-in;
+}
+
+.serv3:hover {
+    background-color: #FF5959;
+    -webkit-box-shadow: 0 0 20px 0 rgb(165, 165, 165);
+    box-shadow: 0 0 20px 0 rgb(165, 165, 165);
+    border: 1px transparent solid;
+    transition: all .3s ease-in;
+}
+
+.serv4:hover>.t-serv {
+    color: white;
+    transition: all .3s ease-in;
+}
+
+.serv4:hover>.p-serv {
+    color: white;
+    transition: all .3s ease-in;
+}
+
+.serv4:hover>i {
+    color: white;
+    transition: all .3s ease-in;
+}
+
+.SERV4 {
+    transition: all .3s ease-in;
+}
+
+.serv4:hover {
+    background-color: #FF5959;
+    -webkit-box-shadow: 0 0 20px 0 rgb(165, 165, 165);
+    box-shadow: 0 0 20px 0 rgb(165, 165, 165);
+    border: 1px transparent solid;
+    transition: all .3s ease-in;
+}

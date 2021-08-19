@@ -1,0 +1,32 @@
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logIN</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="../fonts/font.css">
+</head>
+
+<body>
+    <div class="base">
+        <h1 class="title">ورود به پنل کنترل</h1>
+        <div class="p1">
+            <p class="txt" id="username">:نام کاربری</p>
+            <input type="text" class="txt" id="i-user">
+        </div>
+        <div class="p2">
+            <p class="txt" id="pass">:رمز</p>
+            <input type="password" class="txt" id="i-pass">
+            <p class="forget txt" onclick="forgetPass()">:فراموشی رمز عبور</p>
+        </div>
+        <p class="false txt" id="false"></p>
+        <button class="txt" onclick=" check(this)">ورود</button>
+
+
+    </div>
+</body>
+<script src="app2.js"></script>
+
+</html>
