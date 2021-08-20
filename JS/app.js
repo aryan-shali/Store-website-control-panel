@@ -70,3 +70,25 @@ function nmovr() {
     ttxt.style.color = "#F6F7FF";
     ticon.style.color = "#F6F7FF";
 }
+
+function plusSlides() {
+    let p4 = document.getElementById("w3");
+    p4.style.display = "flex";
+    let p5 = document.getElementById("w4");
+    p5.style.display = "flex";
+    let p2 = document.getElementById("w1");
+    p2.style.display = "none";
+    let p1 = document.getElementById("w2");
+    p1.style.display = "none";
+}
+
+function plusSlides1() {
+    let p4 = document.getElementById("w3");
+    p4.style.display = "none";
+    let p5 = document.getElementById("w4");
+    p5.style.display = "none";
+    let p2 = document.getElementById("w1");
+    p2.style.display = "flex";
+    let p1 = document.getElementById("w2");
+    p1.style.display = "flex";
+}
