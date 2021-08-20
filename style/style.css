@@ -6,6 +6,36 @@
     box-sizing: border-box;
 }
 
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #d3d8ff;
+    border-radius: 20px;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #4a64e7;
+    border-radius: 40px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #4a64e7;
+}
+
 body {
     display: flex;
     justify-content: center;
