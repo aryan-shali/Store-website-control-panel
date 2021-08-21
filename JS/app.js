@@ -80,7 +80,14 @@ function plusSlides() {
     p2.style.display = "none";
     let p1 = document.getElementById("w2");
     p1.style.display = "none";
+    let prev = document.getElementById("prev");
+    prev.style.opacity = "0";
+    let next = document.getElementById("next");
+    next.style.opacity = "100";
+
+
 }
+
 
 function plusSlides1() {
     let p4 = document.getElementById("w3");
@@ -91,4 +98,27 @@ function plusSlides1() {
     p2.style.display = "flex";
     let p1 = document.getElementById("w2");
     p1.style.display = "flex";
+    let prev = document.getElementById("prev");
+    prev.style.opacity = "100";
+    let next = document.getElementById("next");
+    next.style.opacity = "0";
+}
+
+
+function checkin() {
+    let i2 = document.getElementById("i2").value;
+    let i3 = document.getElementById("i3").value;
+    let i4 = document.getElementById("i4").value;
+    let i5 = document.getElementById("i5").value;
+    let exe = document.getElementById("exe");
+
+    if (i2 == "" || i3 == "" || i4 == "" || i5 == "") {
+        alert("شما باید تمام مقادیر را پر کنید")
+    } else {
+        exe.innerHTML = i2 + " " + "گرامی پیام شما دریافت شد و نتیجه ی آن توسط ایمیل ثبت شده در هاست به شما اطلاع داده می شود";
+        document.getElementById("i2").value = "";
+        document.getElementById("i3").value = "";
+        document.getElementById("i4").value = "";
+        document.getElementById("i5").value = "";
+    }
 }

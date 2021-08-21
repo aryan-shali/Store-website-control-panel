@@ -18,7 +18,7 @@
 
  ::-webkit-scrollbar-track {
     background: #d3d8ff;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 
@@ -92,12 +92,12 @@ i {
 }
 
 .menu {
-    width: 264px;
+    width: 300px;
     height: 588px;
     background: #4A63E7;
     display: flex;
     flex-direction: column;
-    padding: 35px 29px;
+    padding: 45px 40px 35px 0;
     border-radius: 35px;
 }
 
@@ -135,20 +135,19 @@ i {
 /* styel of container */
 
 .conteiner {
-    margin: 0 40px 0 0;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+    width: 1179px;
 }
 
 .part1 {
-    width: 877px;
+    width: 900px;
     height: 588px;
     border-radius: 35px;
     /* margin: 0 40px 0 0; */
     background-color: #4A63E7;
-    padding: 70px 90px 0 0;
+    padding: 70px 100px 0 0;
     -webkit-box-shadow: 0px 0px 13px 0px #4A63E7;
     box-shadow: 0px 0px 13px 0px #4A63E7;
 }
@@ -538,12 +537,13 @@ i {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 80px 0 0 0;
+    margin: 60px 0 0 0;
 }
 
 .next {
     font-size: 2em;
     color: #FF5959;
+    opacity: 0;
 }
 
 .prev {
@@ -553,4 +553,163 @@ i {
 
 .w3 {
     display: none;
+}
+
+.next:hover,
+.prev:hover {
+    cursor: pointer;
+}
+
+
+/*part345*/
+
+.part345 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.part5 {
+    width: 1179px;
+    height: 680px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(249, 242, 253);
+    box-shadow: 0px 0px 10px 0px rgb(249, 242, 253);
+    border-radius: 23px;
+    margin: 30px 0 0 0;
+    padding: 0 50px;
+}
+
+.inputname {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.name1 input {
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    border: .7px #aaa solid;
+    padding: 0 20px 0 20px;
+    font-size: 1em;
+}
+
+.name2 input {
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    border: .7px #aaa solid;
+    padding: 0 20px 0 20px;
+    font-size: 1em;
+}
+
+.name2 input:focus {
+    outline: 1px transparent solid;
+    border: .7px #FF5959 solid;
+}
+
+.name1 input:focus {
+    outline: 1px transparent solid;
+    border: .7px #FF5959 solid;
+}
+
+.name2 {
+    margin: 0 40px 0 0;
+}
+
+.name1 p,
+.name2 p {
+    font-weight: 800;
+    color: #FF5959;
+    padding: 0 10px 0 0;
+}
+
+.sub input {
+    width: 640;
+    height: 40px;
+    border-radius: 50px;
+    border: .7px #aaa solid;
+    padding: 0 20px 0 20px;
+    font-size: 1em;
+}
+
+.sub input:focus {
+    outline: 1px transparent solid;
+    border: .7px #FF5959 solid;
+}
+
+.subname {
+    font-weight: 800;
+    color: #FF5959;
+    padding: 0 10px 0 0;
+}
+
+.maintxt textarea {
+    max-width: 640px;
+    max-height: 170px;
+    min-width: 640px;
+    min-height: 170px;
+    border-radius: 20px;
+    border: .7px #aaa solid;
+    padding: 10px 20px 0 20px;
+    font-size: 1em;
+}
+
+.maintxt textarea:focus {
+    outline: 1px transparent solid;
+    border: .7px #FF5959 solid;
+}
+
+.mtn2 {
+    font-weight: 800;
+    color: #FF5959;
+    padding: 0 10px 0 0;
+}
+
+.inp-pp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exe {
+    width: 272px;
+    font-size: 1.3em;
+    font-weight: 900;
+    color: #FF5959;
+    text-align: justify;
+    margin-left: 80px;
+}
+
+.sub,
+.maintxt,
+.inputname {
+    margin: 20px 0;
+}
+
+.inputs button {
+    width: 170px;
+    height: 40px;
+    border-radius: 50px;
+    background: #FF5959;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 900;
+    border: 1px transparent solid;
+    transition: all .2s ease-in;
+}
+
+.inputs button:hover {
+    border: 1.3px #FF5959 solid;
+    background: transparent;
+    color: #FF5959;
+    transition: all .2s ease-in;
+}
+
+.part6 {
+    margin: 50px 0 20px 0;
+    color: #4A63E7;
+    font-weight: 900;
 }
