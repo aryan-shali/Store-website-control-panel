@@ -1,0 +1,240 @@
+@media only screen and (max-width: 1232px) {
+    .conteiner {
+        width: 800px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .conteiner1 {
+        justify-content: space-between;
+        width: 1070px;
+    }
+    .menu {
+        width: 250px;
+    }
+    .part1 {
+        padding: 70px 70px 0 0;
+    }
+    .part2 {
+        width: 1070px;
+    }
+    .part3 {
+        width: 1070px;
+    }
+    .part4 {
+        width: 1070px;
+    }
+    .part5 {
+        width: 1070px;
+    }
+    .serv1,
+    .serv2,
+    .serv3,
+    .serv4 {
+        width: 220px;
+    }
+    .service div div p {
+        width: 150px;
+        text-align: center;
+    }
+    .exe {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 1085px) {
+    .conteiner1 {
+        justify-content: space-between;
+        width: 850px;
+    }
+    .conteiner {
+        width: 600px;
+    }
+    .ptxt {
+        width: 450px;
+        text-align: justify;
+    }
+    .part1 {
+        padding: 80px 70px 0 0;
+    }
+    .menu img {
+        width: 100px;
+        height: 100px;
+    }
+    .menu {
+        padding: 75px 30px 25px 0;
+        width: 230px;
+    }
+    .part2 {
+        width: 850px;
+    }
+    .part3 {
+        width: 850px;
+        height: 700px;
+    }
+    .service {
+        flex-direction: column;
+    }
+    .ppt,
+    .pot {
+        margin: 15px 0;
+    }
+    .serv1,
+    .serv2,
+    .serv3,
+    .serv4 {
+        margin: 0 15px;
+    }
+    .part4 {
+        width: 850px;
+    }
+    .icon-p4 {
+        width: 45px;
+        height: 45px;
+    }
+    .bi-file-person {
+        font-size: 1.3em;
+    }
+    .mtn {
+        width: 200px;
+        margin: 20px 68px 0 0;
+    }
+    .part5 {
+        width: 850px;
+        height: 800px;
+    }
+    .inp-pp {
+        flex-direction: column;
+    }
+    .exe {
+        width: 400px;
+        margin: 50px 0 0 0;
+    }
+    .option-p4 {
+        width: 300px;
+        padding: 0 25px;
+    }
+}
+
+@media only screen and (max-width: 886px) {
+    .menu img {
+        width: 70px;
+        height: 70px;
+    }
+    .webname {
+        font-size: 1.5em;
+    }
+    .opt {
+        font-size: .9em;
+    }
+    .option {
+        margin: 10px 0 0 0;
+    }
+    .menu {
+        height: 480px;
+        width: 200px;
+    }
+    .part1 img {
+        width: 110px;
+        height: 110px;
+    }
+    .part1 {
+        height: 480px;
+        padding: 80px 60px 0 0;
+        width: 480px;
+    }
+    .ptit {
+        font-size: 2.5em;
+    }
+    .ptxt {
+        font-size: 1em;
+        width: 360px;
+        text-align: justify;
+    }
+    .source {
+        width: 150px;
+        height: 40px;
+    }
+    .source p {
+        font-size: .9em;
+    }
+    .source i {
+        font-size: .9em;
+    }
+    .ticket p {
+        font-size: .9em;
+    }
+    .ticket i {
+        font-size: .9em;
+    }
+    .ticket {
+        width: 130px;
+        height: 40px;
+        margin: 0 20px 0 0;
+    }
+    .btnp {
+        margin: 20px 0 0 0;
+    }
+    .conteiner1 {
+        width: 680px;
+    }
+    .part2 {
+        width: 680px;
+    }
+    .part3 {
+        width: 680px;
+    }
+    .part5 {
+        width: 680px;
+    }
+    .part4 {
+        width: 680px;
+        height: 800px;
+    }
+    .option-p4 {
+        margin: 20px 20px;
+    }
+    .name1 input {
+        width: 250px;
+    }
+    .name2 input {
+        width: 250px;
+    }
+    .name2 {
+        margin: 0 20px 0 0;
+    }
+    .sub input {
+        width: 520px;
+    }
+    .maintxt textarea {
+        max-width: 520px;
+        min-width: 520px;
+    }
+    .exe {
+        font-size: 1.1em;
+    }
+    .inp-pp button {
+        width: 140px;
+        height: 40px;
+        font-size: .9em;
+    }
+    .inputname div input {
+        font-size: .9em;
+    }
+    .inputname div p {
+        font-size: .9em;
+    }
+    .inp-pp div input {
+        font-size: .9em;
+    }
+    .inp-pp div p {
+        font-size: .9em;
+    }
+    .inp-pp div textarea {
+        font-size: .9em;
+    }
+    .ooq,
+    .oow {
+        flex-direction: column;
+    }
+}
